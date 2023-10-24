@@ -7,5 +7,4 @@ Users can then share these creations with others both within and outside the app
 <br>
 Kittycute is a test project I will be working on as I learn HTML and CSS.
 <br>
-<b>Author<b>
-- Adwaith Sunil / @adwaithwas
+<u><b>Author<b><u> - Adwaith Sunil / @adwaithwas
