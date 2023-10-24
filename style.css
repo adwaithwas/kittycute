@@ -1,4 +1,409 @@
 body {
     background-color: #1E1E1E ;
     color: #FFFFFF ;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cat1 {
+    position: absolute;
+    top: 144px;
+    left: 155px;
+    width: 384px;
+    height: 379px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: url(https://i.pinimg.com/originals/33/4c/34/334c34b1f1d2846c48152d9f41357f9d.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 10px 11px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+#cat2 {
+    position: absolute;
+    top: 482px;
+    left: 657px;
+    width: 373px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: url(https://hips.hearstapps.com/hmg-prod/images/funny-cat-captions-1563551842.jpg?crop=0.670xw:1.00xh;0.147xw,0&resize=1200:*), lightgray 50% / cover no-repeat;
+    box-shadow: 10px 11px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+#h1kitty {
+    position: absolute;
+    top: 247px;
+    left: 854px;
+    width: 366px;
+    height: 230px;
+    flex-shrink: 0;
+    text-align: center;
+    text-shadow:  -4px 4px 0px #9DB9A1, -7px 8px 0px rgba(0, 0, 0, 0.25);
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1000;
+    margin: 0px;
+}
+
+#h1cute {
+    position:absolute;
+    top: 247px;
+    left: 1171px;
+    width: 345px;
+    height: 230px;
+    flex-shrink: 0;
+    text-align: center;
+    text-shadow: 7px 8px 0px rgba(137, 97, 131, 0.25), -4px 4px 0px rgba(0, 0, 0, 0.00);
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1000;
+    margin: 0px;
+}
+
+#rect1 {
+    position:absolute;
+    top: 98px;
+    left: 222px;
+    width: 949px;
+    height: 634px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #9DB9A1;
+}
+
+#rect2 {
+    position:absolute;
+    top: 404px;
+    left: 609px;
+    width: 1101px;
+    height: 592px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #896183;
+}
+
+header h3 {
+    position:absolute;
+    top: 415px;
+    left: 1192px;
+    width: 505px;
+    height: 43px;
+    flex-shrink: 0;
+    color: #D1F4D6;
+    text-shadow: 1px 1px 1px rgba(32, 32, 32, 0.25);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 1001;
+}
+
+#rect3 {
+    position:absolute;
+    top: 1073px;
+    left: 155px;
+    width: 767px;
+    height: 364px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #9DB9A1;
+    z-index: 1000;
+}
+
+#card1a {
+    position:absolute;
+    top: 1211px;
+    left: 271px;
+    margin: 0px;
+    width: 535px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53.12px;
+    z-index: 1003;
+}
+
+#card1b {
+    position:absolute;
+    top: 1272px;
+    left: 404px;
+    margin: 0px;
+    width: 269px;
+    height: 14px;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.45px;
+    z-index: 1003;
+}
+
+#cardcomp1 {
+    position:absolute;
+    top: 1086px;
+    left: 1039px;
+    margin: 0px;
+    width: 595px;
+    height: 327px;
+    flex-shrink: 0;
+    z-index: 1003;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%; /* 44.82px */
+}
+
+.cardcomp-boldtext {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.5%;
+    
+}
+
+.cardcomp-boldtext-colour-pink{
+    color: #E73ACD;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.5%;
+}
+
+#rect4 {
+    position:absolute;
+    top: 1469px;
+    left: 943px;
+    width: 767px;
+    height: 364px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #896183;
+    z-index: 1000;
+}
+
+#card2a {
+    position:absolute;
+    top: 1624px;
+    left: 1008px;
+    margin: 0px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53.12px;
+    z-index: 1003;
+}
+
+#cardcomp2 {
+    position:absolute;
+    top: 1508px;
+    left: 155px;
+    margin: 0px;
+    width: 595px;
+    height: 327px;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+}
+
+.cardcomp-boldtext-colour-green{
+    color: #61CB70;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.5%;
+}
+
+#signuptxt {
+    position:absolute;
+    top: 1987px;
+    left: 345px;
+    margin: 0px;
+    width: 286px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 39.84px;
+    text-decoration-line: underline;
+}
+
+#signupbtn{
+    position:absolute;
+    top: 1976px;
+    left: 663px;
+    margin: 0px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.82px;
+    z-index: 1003;
+    border-radius: 19px;
+    background: #ECE9E4;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#logintxt {
+    position:absolute;
+    top: 1987px;
+    left: 972px;
+    margin: 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 39.84px;
+    text-decoration-line: underline;
+}
+
+#loginbtn {
+    position:absolute;
+    top: 1976px;
+    left: 1295px;
+    margin: 0px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.82px;
+    z-index: 1003;
+    border-radius: 19px;
+    background: #ECE9E4;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#infotxt {
+    position:absolute;
+    top: 2176px;
+    left: 262px;
+    margin: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.9px;
+}
+
+.cardcomp-boldtext-colour-pink-2 {
+    color: #C54FB3;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+
+.cardcomp-boldtext-colour-green-2 {
+    color: #61CB70;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+
+.endcred h1 {
+    position:absolute;
+    top: 2272px;
+    left: 507px;
+    margin: 0px;
+    color: #1E1E1E;
+    text-shadow: 0px 4px 0px #C54FB3,  0px 8px 0px rgba(97, 203, 112, 0.78);
+    font-family: Poppins;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 149.4px;
+    -webkit-text-stroke: 1px #ECE9E4 ;
+}
+
+#survey {
+    position:absolute;
+    top: 2493px;
+    left: 735px;
+    margin: 0px;
+    width: 840px;
+    height: 138px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44.82px;
+}
+
+#Meowster {
+    position:absolute;
+    top: 2493px;
+    left: 222px;
+    width: 397px;
+    height: 399px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 11px 11px 0px 0px rgba(255, 255, 255, 0.12);
+}
+
+#review {
+    position:absolute;
+    top: 2778px;
+    left: 665px;
+    width: 815px;
+    height: 143px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 24.9px;
+}
+
+.endcred figcaption {
+    position:absolute;
+    top: 2906px;
+    left: 360px;
+    margin: 0px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.94px;
 }

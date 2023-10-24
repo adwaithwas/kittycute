@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,200;1,500;1,600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -8,10 +11,13 @@
 </head>
 <body>
 <header>
-    <h1>Kittycute</h1>
-    <img src="https://i.pinimg.com/originals/33/4c/34/334c34b1f1d2846c48152d9f41357f9d.jpg" alt="cute cat picture" width="328" height="317">
+    <h1 class="titleh1" id="h1kitty">Kitty</h1>
+    <h1 class="titleh1" id="h1cute">cute</h1>
+    <div class="rect" id="rect1"></div>
+    <div class="rect" id="rect2"></div>
+    <img src="https://i.pinimg.com/originals/33/4c/34/334c34b1f1d2846c48152d9f41357f9d.jpg" alt="cute cat picture1" class="catpics" id="cat1">
     <h3> Your Daily Dose of Feline Cuteness!</h3>
-    <img src="https://hips.hearstapps.com/hmg-prod/images/funny-cat-captions-1563551842.jpg?crop=0.670xw:1.00xh;0.147xw,0&resize=1200:*" alt="cute cat picture" width="328" height="317">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/funny-cat-captions-1563551842.jpg?crop=0.670xw:1.00xh;0.147xw,0&resize=1200:*" alt="cute cat picture2" class="catpics" id="cat2">
 </header>
 <br>
 <br>
@@ -19,50 +25,50 @@
 <br>
 <main>
     <section>
-        <h1>0+ users</h1>
-        <h5>and counting...</h5><br>
-        <p>Discover the world's most adorable cats and share your own furry friend's charm with the world. At Kittycute, we celebrate the cuteness of cats. Browse, post, and engage with the purrfect cat content uwu.</p>
+        <p class="cardtxt" id="card1a">0+ users</p>
+        <div class="rect" id="rect3"></div>
+        <p class="cardtxt" id="card1b">and counting...</p><br>
+        <p class="cardcomp" id="cardcomp1">Discover the world's most <span class="cardcomp-boldtext">adorable cats</span> and share your own furry friend's charm with the world. At Kittycute, we celebrate the <span class="cardcomp-boldtext">cuteness</span> of cats. Browse, post, and engage with the <span class="cardcomp-boldtext-colour-pink">purrfect cat</span> content uwu.</p>
     </section>
     <br>
     <section>
-        <h1>Why Join Kittycute?</h1>
-        <ul>
-            <li>Connect with fellow cat lovers worldwide.</li>
-            <li>Share your cat's charm with a loving community.</li>
-            <li>Enjoy a never-ending stream of cat-related fun.</li>
+        <p class="cardtxt" id="card2a">Why Join Kittycute?</p>
+        <div class="rect" id="rect4"></div>
+        <ul class="cardcomp" id="cardcomp2">
+            <li><span class="cardcomp-boldtext">Connect</span> with fellow <span class="cardcomp-boldtext-colour-pink">cat lovers</span> worldwide.</li>
+            <li>Share your cat's charm with a <span class="cardcomp-boldtext">loving community</span>.</li>
+            <li>Enjoy a never-ending stream of <span class="cardcomp-boldtext-colour-green">cat-related fun</span>.</li>
         </ul>
     </section>
     <br>
     <section>
-        <p>new to KittyCute?</p>
+        <p id="signuptxt">new to KittyCute?</p>
         <a href="signupKTYC.html" target="_blank">
-            <button type="button">sign up now</button>
+            <button type="button" id="signupbtn">sign up now</button>
         </a>
         <br>
-        <p>already a member?</p>
+        <p id="logintxt">already a member?</p>
         <a href="loginKTYC.html" target="_blank">
-            <button type="button">login now</button>
+            <button type="button" id="loginbtn">login now</button>
         </a>
     </section>
     <br>
     <section>
-        <p>All our users can share and download the adorable pictures for absolutely free of cost, and we plan on to keep it free for lifetime:D</p>
+        <p id="infotxt">All our users can <span class="cardcomp-boldtext-colour-pink-2">share and download</span> the adorable pictures for <span class="cardcomp-boldtext-colour-pink-2">absolutely free of cost</span>, and we plan on to keep it <span class="cardcomp-boldtext-colour-green-2">free for lifetime</span> :D</p>
     </section>
     <br>
-    <section>
+    <section class="endcred">
         <h1>Did you know?</h1>
-        <p>According to a survey, all cute cats love treats, grooming, affection and profiles on Kittycute. Ask Mr. Candy Meowster for instance...</p>
+        <p id="survey">According to a survey, all cute cats love treats, grooming, affection and profiles on Kittycute. Ask Mr. Candy Meowster for instance...</p>
         <figure>
-            <img src="https://i.pinimg.com/736x/d3/4d/28/d34d285c37e8b281a6e7c1539960dc4b.jpg" width="'397" height="399" alt="Mr. Candy Meowster">
-            <figcaption>Mr. Candy Meowster</figcaption>
+            <img src="https://i.pinimg.com/736x/d3/4d/28/d34d285c37e8b281a6e7c1539960dc4b.jpg" alt="Mr. Candy Meowster" id="Meowster">
+            <figcaption>-Mr. Candy Meowster</figcaption>
         </figure>
-        <p> - “Kittycute is the cat lover's paradise! I, Mr. Candy Meowster, had a pawsitively delightful time exploring adorable cat content, engaging with the community, and creating my own purrfect memes. I met Miss Fluffypaws through this site and now we are happily married with two kittens. It's a five-star feline experience! ~meow~ !" &lt3 &lt3
+        <p id="review"> - “Kittycute is the cat lover's paradise! I, Mr. Candy Meowster, had a pawsitively delightful time exploring adorable cat content, engaging with the community, and creating my own purrfect memes. I met Miss Fluffypaws through this site and now we are happily married with two kittens. It's a five-star feline experience! ~meow~ !" &lt3 &lt3
         </p>
     </section>   
 </main>
-<footer>
-    <p><small>© Kitttycute | All Cat pictures are from Kittycute profiles and are free to use.</small></p>
-</footer>
+
 
     
 </body>
