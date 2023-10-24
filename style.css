@@ -376,7 +376,7 @@ header h3 {
     height: 399px;
     flex-shrink: 0;
     border-radius: 36px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(https://i.pinimg.com/736x/d3/4d/28/d34d285c37e8b281a6e7c1539960dc4b.jpg), lightgray 50% / cover no-repeat;
     box-shadow: 11px 11px 0px 0px rgba(255, 255, 255, 0.12);
 }
 
